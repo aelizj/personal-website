@@ -1,19 +1,11 @@
 body {
-  background-color: #01304b;
-  color: #eee;
+  background-color: white;
+  color: grey;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 79px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.rainbow-text {
-  background-image: linear-gradient(to left,hotpink, salmon, moccasin, turquoise, thistle);
-  -webkit-background-clip: text;
-   background-clip: text;
-  -webkit-text-fill-color: transparent;
+p {
+  font-size: 15px;
 }
 
 a {
@@ -32,6 +24,61 @@ img {
   object-fit: contain;
 }
 
-p {
-  font-size: 15px;
+h1 {
+  font-size: 79px;
+  font-family: '', sans-serif;
+  font-weight: 900;
 }
+
+.rainbow-text {
+  background-image: linear-gradient(to left,hotpink, salmon, moccasin, turquoise, thistle);
+  -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: darkslategray;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav .name-label {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: powderblue; 
+  padding-left: 10px;
+}
+
+.sidenav a {
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  color: powderblue;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: cadetblue;
+}
+
+.main {
+  margin-left: 200px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
