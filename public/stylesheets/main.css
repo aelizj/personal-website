@@ -49,14 +49,6 @@ h1 {
   padding-top: 20px;
 }
 
-.sidenav .name-label {
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  color: powderblue; 
-  padding-left: 10px;
-}
-
 .sidenav a {
   padding-left: 10px;
   text-decoration: none;
@@ -65,6 +57,14 @@ h1 {
   font-weight: 200;
   color: powderblue;
   display: block;
+}
+
+.sidenav .name-label {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: powderblue; 
+  padding-left: 10px;
 }
 
 .sidenav a:hover {
