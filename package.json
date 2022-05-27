@@ -15,5 +15,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/aelizj/simple-express.git"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
