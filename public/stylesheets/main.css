@@ -5,13 +5,14 @@ body {
 }
 
 h1 {
-  font-size: x-large;
+  font-size: 125px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .rainbow-text {
-  background-image: linear-gradient(to left,powderblue, lightyellow, pink, lavender, honeydew);
+  background-image: linear-gradient(to left,hotpink, salmon, moccasin, turquoise, mediumpurple);
   -webkit-background-clip: text;
+   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -21,15 +22,6 @@ a {
 
 li {
   padding-bottom: 10px;
-}
-
-.practice {
-  /* font-family: Verdana, 'Trebuchet MS', Tahoma, sans-serif;
-  font-size: 20px;
-  line-height: 2.5; */
-  text-align: justify;
-  text-indent: 4em;
-  background:darkcyan;
 }
 
 img {
