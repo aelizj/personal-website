@@ -5,12 +5,12 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 79px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .rainbow-text {
-  background-image: linear-gradient(to left,hotpink, salmon, moccasin, turquoise, mediumpurple);
+  background-image: linear-gradient(to left,hotpink, salmon, moccasin, turquoise, thistle);
   -webkit-background-clip: text;
    background-clip: text;
   -webkit-text-fill-color: transparent;
