@@ -23,3 +23,9 @@ li {
   text-indent: 4em;
   background:darkcyan;
 }
+
+img {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+}
