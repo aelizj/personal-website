@@ -1,0 +1,25 @@
+body {
+  background-color: #01304b;
+  color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #c3b802;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+.practice {
+  /* font-family: Verdana, 'Trebuchet MS', Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2.5; */
+  font: italic bold 20px /2.5 Verdana, 'Trebuchet', Tahoma, sans-serif;
+  text-align: justify;
+  text-indent: 4em;
+  background:darkcyan;
+}
