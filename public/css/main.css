@@ -594,7 +594,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: #cc005f;
+	color: #9fb8d5;
 	border-bottom: 1px solid #afcdef;
 }
 label, legend {
@@ -925,7 +925,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #252525;
 }
 .stats-tabs li a:hover {
-	color: #afcdef;
+	color: #9fb8d5;
 }
 .stats-tabs li a em {
 	display: block;
@@ -1041,7 +1041,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #afcdef;
+	color: #9fb8d5;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1196,7 +1196,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #ff0077;
+	background-color: #9fb8d5;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1252,12 +1252,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #afcdef;
+	color: #9fb8d5;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #afcdef;
+	color: #9fb8d5;
 }
 
 /**
@@ -1337,7 +1337,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #cc005f;
+	color: #9fb8d5;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1384,7 +1384,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #9fb8d5;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1416,7 +1416,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: #9fb8d5;
 }
 
 /**
@@ -1629,7 +1629,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #afcdef;
+	color: #9fb8d5;
 }
 
 #resume .resume-timeline {
@@ -1956,7 +1956,7 @@ header .logo a {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: #cc005f;
+	background: #9fb8d5;
 	border: none;
 }
 @media only screen and (max-width:600px) {
@@ -2122,7 +2122,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: #afcdef;
+	color: #9fb8d5;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2144,7 +2144,7 @@ header .logo a {
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color: #afcdef;
+	color: #9fb8d5;
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -2172,7 +2172,7 @@ header .logo a {
 	background: #FFFFFF;
 }
 .owl-theme .owl-controls .owl-page.active span {
-	background: #afcdef;
+	background: #9fb8d5;
 }
 
 
@@ -2183,7 +2183,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #990047;
+	background: #9fb8d5;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
@@ -2258,7 +2258,7 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #afcdef;
+	color: #9fb8d5;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2311,7 +2311,7 @@ header .logo a {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #afcdef;
+	background: #9fb8d5;
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -2320,7 +2320,7 @@ header .logo a {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #afcdef;
+	border-right: 5px solid #9fb8d5;
 	content: "";
 }
 #contact input[type="text"],
@@ -2342,7 +2342,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #afcdef;
+	border-color: #9fb8d5;
 	color: #FFFFFF;
 }
 #contact textarea {
@@ -2350,7 +2350,7 @@ header .logo a {
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: #afcdef;
+	border-color: #9fb8d5;
 	color: #FFFFFF;
 }
 #contact button.submitform {
@@ -2362,11 +2362,11 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #afcdef;
+	background: #9fb8d5;
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #afcdef;
+	background: #9fb8d5;
 }
 #message-warning, #message-success {
 	display: none;
@@ -2377,10 +2377,10 @@ header .logo a {
 	width: 100%;
 }
 #message-warning {
-	color: #afcdef;
+	color: #9fb8d5;
 }
 #message-success {
-	color: #afcdef7;
+	color: #9fb8d5;
 }
 #message-warning i, #message-success i {
 	margin-right: 10px;
@@ -2425,7 +2425,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: #afcdef;
+	color: #9fb8d5;
 }
 
 /**
@@ -2499,7 +2499,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #afcdef;
+	color: #9fb8d5;
 }
 footer .row {
 	max-width: 900px;
@@ -2578,7 +2578,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: #9fb8d5;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
