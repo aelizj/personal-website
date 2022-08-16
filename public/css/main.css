@@ -74,7 +74,7 @@ body {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color:rgba(0, 0, 0, 0.5);
 }
 
 /**
@@ -102,7 +102,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: rgba(0, 0, 0, 0.8);
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -154,9 +154,9 @@ p img {
 }
 p.lead {
 	font-family: "lora-regular", serif;
-	font-size: 2rem;
+	font-size: 2.4rem;
 	line-height: 1.8;
-	color: #888888;
+	color: rgba(0, 0, 0, 0.5);
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -189,7 +189,7 @@ blockquote:before {
 	font-size: 8rem;
 	line-height: 0px;
 	margin: 0;
-	color: #313131;
+	color: rgba(0, 0, 0, 0.5);
 	font-family: arial, sans-serif;
 	position: absolute;
 	top: 3rem;
@@ -212,7 +212,7 @@ blockquote cite:before {
 	content: "\2014 \0020";
 }
 blockquote cite a, blockquote cite a:visited {
-	color: #888888;
+	color: rgba(0, 0, 0, 0.5);
 	border: none;
 }
 abbr {
@@ -220,7 +220,7 @@ abbr {
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
-	color: #888888;
+	color: rgba(0, 0, 0, 0.5);
 }
 var, kbd, samp, code, pre {
 	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
@@ -932,7 +932,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: .6rem 0 0 0;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: rgba(0, 0, 0, 0.5);
 }
 
 /**
@@ -1229,7 +1229,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: darkslategray;
+	background: #000000;
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
@@ -1325,7 +1325,7 @@ header .logo a {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #FFFFFF;
+	color: white;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1490,7 +1490,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background:rgba(255, 255, 255, 0.8);
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1546,7 +1546,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: rgba(0, 0, 0, 0.5);
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1685,7 +1685,7 @@ header .logo a {
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: rgba(0, 0, 0, 0.5);
 }
 #resume .timeline-content {
 	margin-left: 35%;
