@@ -1490,7 +1490,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background:rgba(255, 255, 255, 0.8);
+	background-color: white;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1546,7 +1546,6 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: rgba(0, 0, 0, 0.5);
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -2251,6 +2250,7 @@ header .logo a {
  */
 #contact {
 	background: #151515;
+	color:white;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
@@ -2342,6 +2342,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
+	background-color: #3b3b3b;
 	border-color: #9fb8d5;
 	color: #FFFFFF;
 }
@@ -2350,6 +2351,7 @@ header .logo a {
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
+	background-color: #3b3b3b;
 	border-color: #9fb8d5;
 	color: #FFFFFF;
 }
@@ -2491,7 +2493,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 footer {
-	padding-bottom: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
 }

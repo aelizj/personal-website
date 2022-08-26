@@ -50,11 +50,10 @@
 					<ul class="main-navigation">
 						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
 						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
 						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-						<li><a href="styles.html" title="">Style Demo</a></li>				
+
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#contact" title="">Get in Touch</a></li>	
 					</ul>
 				</nav>    		
    		</div> <!-- /top-bar --> 
@@ -126,12 +125,12 @@
 
    			<ul class="info-list">
    				<li>
-   					<strong>Fullname:</strong>
+   					<strong>Full Name:</strong>
    					<span>Anne Jones</span>
    				</li>
    				<li>
    					<strong>Job:</strong>
-   					<span>Fullstack Developer</span>
+   					<span>Full-Stack Developer</span>
    				</li>
    				<li>
    					<strong>Website:</strong>
@@ -191,25 +190,25 @@
 
 	<!-- Portfolio Section
    ================================================== -->
-	<section id="portfolio">
+	<!-- <section id="portfolio">
 
 		<div class="row section-intro">
    		<div class="col-twelve">
 
    			<h5>Portfolio</h5>
-   			<h1>Here's what I've been up to:</h1>
+   			<h1>Here's what I've been up to:</h1> -->
+   			<!-- <p class="lead"></p> -->
 
-   			<p class="lead">Note to self: CHANGE THESE OUT</p>
+   		<!-- </div>   		
+   	</div>  -->
+		<!-- /section-intro--> 
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+   	<!-- <div class="row portfolio-content">
 
-   	<div class="row portfolio-content">
-
-   		<div class="col-twelve">
+   		<div class="col-twelve"> -->
 
    			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+	         <!-- <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
 	         	<div class="bgrid folio-item">
 	               <div class="item-wrap">
@@ -225,9 +224,10 @@
 	                     </div>                    
 	                  </a>
 	               </div>	               
-	        		</div> <!-- /folio-item -->
+	        		</div>  -->
+							<!-- /folio-item -->
 
-	        		<div class="bgrid folio-item">
+	        		<!-- <div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
 	               	<a href="#modal-02" class="overlay">              		                  
@@ -241,9 +241,10 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> <!-- /folio-item -->
+	        		</div>  -->
+							<!-- /folio-item -->
 
-	            <div class="bgrid folio-item">
+	            <!-- <div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
 	                  <a href="#modal-03" class="overlay">             		                  
@@ -257,8 +258,9 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> <!-- /folio-item -->
-
+	        		</div>  -->
+							<!-- /folio-item -->
+<!-- 
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
@@ -273,9 +275,10 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> <!-- /folio-item -->     
+	        		</div>  -->
+							<!-- /folio-item -->     
 
-	        		<div class="bgrid folio-item">
+	        		<!-- <div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
 	                  <a href="#modal-05" class="overlay">             		                  
@@ -289,9 +292,10 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> <!-- /folio-item -->
+	        		</div>  -->
+							<!-- /folio-item -->
 
-	            <div class="bgrid folio-item">
+	            <!-- <div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/salad.jpg" alt="Salad">
 	                  <a href="#modal-06" class="overlay">
@@ -305,7 +309,8 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> <!-- /folio-item -->   
+	        		</div>  -->
+							<!-- /folio-item -->   
 
 	            <!-- modal popups - begin
 	            ============================================================= -->
@@ -452,7 +457,7 @@
    			<h5>Resume</h5>
    			<h1>More of my credentials</h1>
 
-   			<p class="lead">Some content</p>
+   			<p class="lead"></p>
 
    		</div>   		
    	</div> <!-- /section-intro--> 
@@ -482,7 +487,17 @@
 
 	   				<div class="timeline-content">
 	   					<h4>Arroyo</h4>
-	   					<p>Arroyo is a lightweight framework used to granularly rehydrate logs.</p>
+							<ul>
+								<li>Spearheaded the design and construction of the Arroyo Client UI </li>
+								<li>Built scripts to facilitate automated provisioning and teardown of AWS cloud infrastructure (S3, SQS, Lambda)</li>
+								<li>Facilitated the execution of multiple asynchronous re-ingestion tasks by leveraging Lambda's serverless compute model</li>
+								<li>Decoupled and containerized the Arroyo UI and back-end components to simplify deployment and achieve a clean separation of concerns</li>
+								<li>Designed a RESTful API between Arroyo's back end and UI</li>
+								<li>Deployed and configured an ELK stack (Elasticsearch, Logstash, Kibana) on an EC2 instance to optimize testing and development </li>
+								<li>Co-authored clear, concise documentation to facilitate collaboration across three time zones</li>
+								<li>Leveraged Agile methodologies to ensure effective daily stand-ups</li>
+								<li>Co-authored and presented a technical case study exploring the process of creating and engineering Arroyo (https://www.arroyoframework.com/case-study.html)</li>
+							</ul>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -518,7 +533,7 @@
 
 	   				<div class="timeline-content">
 	   					<h4>Molecular, Cellular, and Developmental Biology</h4>
-	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   					<p>Dean's List</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -540,69 +555,7 @@
 
 				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
 
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-pencil-ruler"></i>
-						</div>
-
-						<h3 class="stat-count">
-							1500
-						</h3>
-
-						<h5 class="stat-title">
-							Projects Completed
-						</h5>
-
-					</div> <!-- /stat -->					
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-users"></i>
-						</div>
-
-						<h3 class="stat-count">
-							900
-						</h3>
-
-						<h5 class="stat-title">
-							Happy Clients
-						</h5>
-
-					</div> <!-- /stat -->
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-badge"></i>
-						</div>
-
-						<h3 class="stat-count">
-							200
-						</h3>
-
-						<h5 class="stat-title">
-							Awards Received
-						</h5>
-
-					</div> <!-- /stat -->									
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-light-bulb"></i>
-						</div>
-
-						<h3 class="stat-count">
-							120
-						</h3>
-
-						<h5 class="stat-title">
-							Crazy Ideas
-						</h5>
-
-					</div> <!-- /stat -->
+					
 
 					<div class="bgrid stat">
 
@@ -611,7 +564,7 @@
 						</div>
 
 						<h3 class="stat-count">
-							1500
+							1100
 						</h3>
 
 						<h5 class="stat-title">
@@ -627,7 +580,7 @@
 						</div>
 
 						<h3 class="stat-count">
-							7200
+						2312
 						</h3>
 
 						<h5 class="stat-title">
@@ -635,6 +588,23 @@
 						</h5>
 
 					</div> <!-- /stat -->
+					
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							132
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> 
+					<!-- /stat -->
 
 				</div> <!-- /stats-list -->
 
@@ -651,10 +621,10 @@
 		<div class="row section-intro">
    		<div class="col-twelve">
 
-   			<h5>Contact</h5>
-   			<h1>I'd Love To Hear From You.</h1>
+   			<h5>Get in Touch</h5>
+   			<h1>I'd Love To Hear From You!</h1>
 
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   			<p class="lead"></p>
 
    		</div> 
    	</div> <!-- /section-intro -->
@@ -677,7 +647,7 @@
 	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
 	               </div>                       
                   <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
                      <button class="submitform">Submit</button>
@@ -761,13 +731,13 @@
 
      		<div class="col-six tab-full pull-right social">
 
-     			<ul class="footer-social">        
+     			<!-- <ul class="footer-social" style="background">        
 			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
 			      <li><a href="#"><i class="fa fa-behance"></i></a></li>
 			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
 			      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-			   </ul> 
+			   </ul>  -->
 	      		
 	      </div>
 
