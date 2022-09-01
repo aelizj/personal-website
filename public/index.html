@@ -49,11 +49,9 @@
 		   	<nav id="main-nav-wrap">
 					<ul class="main-navigation">
 						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
 						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#contact" title="">Contact me</a></li>	
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#contact" title="">Contact Me</a></li>	
 					</ul>
 				</nav>    		
    		</div> <!-- /top-bar --> 
@@ -100,18 +98,85 @@
 	<section id="portfolio">
 		<div class="row section-intro">
    		<div class="col-twelve">
-   			<h5>Portfolio</h5>
-   			<h1>Arroyo</h1>
-   			<p class="lead"></p>
-				<img src="/public/images/portfolio/arroyoArchitecture.gif" alt="Arroyo's architecture">
+   			<h5 id="porth5">Portfolio</h5>
+				<div class="col-ten">
+					<img src="images/logos/SVG/color/arroyologo_color.svg" style="width: 75%; height: 75%;">
+				</div>
+				
    		</div>   		
    	</div> 
 		<!-- /section-intro--> 
 		
+		<div class="row portfolio-content arroyo">
+			<div class="col-twelve">
+				<div id="folio-wrapper">
+					 <div class="bgrid folio-item">
+						<div class="item-wrap">
+							<h2 style="text-align: center;"><a href="https://www.arroyoframework.com/" title="Arroyo" target="_blank">Arroyo</a> is a lightweight framework that facilitates the rehydration of logs archived in cloud storage back into Elasticsearch. </h2>
+						</div>
+				 </div>
+				<!-- /folio-item -->
+				 <div class="bgrid folio-item">
+					<img src="images/portfolio/arroyo.gif" alt="Arroyo">
+		     </div> 
+				</div>
+			</div>
+		</div>
 		
+		<p class="lead"></p>
+		
+		<div class="row portfolio-content arroyo">
+			<div class="col-twelve">
+				<div id="folio-wrapper"  class="block-1-2 block-mob-full stack">
+					<div class="bgrid folio-item">
+						<img src="images/portfolio/query_ingest_10fps.gif" alt="Arroyo query ingestion">
+			 </div>
+				<!-- /folio-item --> 
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<h2 style="vertical-align: middle;"> Users can reingest logs by date range, and they may also input search terms to further refine their search. <br><br>These logs are indexed back into Elasticsearch, and are then readily available within the user's Kibana dashboard.   </h2>
+						</div>
+				 </div>
+					 <!-- /folio-item -->
+				
+				</div>
+			</div>
+		</div>
+
+		<p class="lead"></p>
+		
+		<div class="row portfolio-content arroyo">
+			<div class="col-twelve">
+				<div id="folio-wrapper"  class="block-1-2 block-mob-full stack">
+					 <!-- /folio-item -->
+					 <div class="bgrid folio-item">
+						<div class="item-wrap">
+							<h2 style="vertical-align: middle;">Arroyo deploys all of the AWS infrastructure needed to rehydrate logs automatically.<br><br>Once the work is done, Arroyo can destroy that infrastructure just as easily to avoid unecessary resource use.  </h2>
+						</div>
+				 </div>
+					 <!-- /folio-item -->
+					 <div class="bgrid folio-item">
+						<img src="images/portfolio/deploy.gif" alt="Arroyo deployment">
+			 </div> 
+				</div>
+			</div>
+		</div>
+		<div id="arroyolink" class="row button-section">
+			<div class="col-twelve">
+				<a href="https://www.arroyoframework.com/case-study.html" target="_blank" title="Arroyo Case Study" class=" button button-primary ">Read more</a>
+			</div> 
+		</div>
+
+		
+		<!-- OTHER PROJECTS--> 
+	<section id="otherProjects">
 		<div class="row section-intro">
 			<div class="col-twelve">
-				<h1>Other projects</h1>
+			</div>   		
+		</div> 
+		<div class="row section-intro">
+			<div class="col-eleven">
+				<h5>Other projects</h5>
 			</div>   		
 		</div> 
    	 
@@ -146,7 +211,8 @@
 	                     </div>                    
 	                  </a>
 	               </div>
-	        		</div> 
+	        		</div>
+						</section> 
 							<!-- /folio-item -->     
 
 	            <!-- modal popups - begin
@@ -209,14 +275,15 @@
    	<div class="row section-intro">
    		<div class="col-twelve">
 
-   			<h5>About</h5>
+   			<h5 id="abouth5">About</h5>
    			<h1>Let me introduce myself.</h1>
 
    			<div class="intro-info">
 
    				<img src="images/profile-pic.jpg" alt="Profile Picture">
 
-   				<p class="lead">My name is Anne, and I'm a Full-Stack web developer based in Seattle, WA. I have experience in JavaScript, React, PostgreSQL, Ruby, and Go.<br><br>Most recently, I built Arroyo, a lightweight framework for granularly rehydrating logs from cloud storage into Elasticsearch.</p>
+   				<p class="lead">My name is Anne, and I'm a Full-Stack web developer based in Seattle, WA. I have experience in JavaScript, React, PostgreSQL, Ruby, and Go.</p>
+					<p class="lead">Most recently, I built <a href="https://www.arroyoframework.com/" target="_blank" ><strong style="color:#6397d3; font-size: 2.5rem;">Arroyo</strong></a>, a lightweight framework for granularly rehydrating logs from cloud storage into Elasticsearch.</p></p>
    			</div>   			
 
    		</div>   		
@@ -285,7 +352,7 @@
 		<div class="row section-intro">
    		<div class="col-twelve">
 
-   			<h5>Get in Touch</h5>
+   			<h5 id="contacth5">Get in Touch</h5>
    			<h1>I'd Love To Hear From You!</h1>
 
    			<p class="lead"></p>
@@ -350,9 +417,7 @@
 
    			<h5>Where to find me</h5>
 
-   			<p>
-            Seattle, WA
-            </p>
+   			<p style="color: white;">Seattle, WA</p>
 
    		</div>
 
@@ -405,7 +470,7 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span style="color:lightgray;">© Copyright Anne Jones 2022 | Styleshout.com</span> 
+		        	<span style="color:darkgray;">© Copyright Anne Jones 2022 | Styleshout.com</span> 
 		         </div>		                  
 	      	</div>
 
