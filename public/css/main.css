@@ -1794,7 +1794,7 @@ header .logo a {
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 0;
+	padding: 1;
 	position: relative;
 	overflow: hidden;
 }
