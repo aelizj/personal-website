@@ -134,7 +134,7 @@ h3, .h03 {
 	line-height: 1.5;
 }
 h4, .h04 {
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 	line-height: 1.765;
 }
 h5, .h05 {
@@ -889,129 +889,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	content: none;
 }
 
-/** 
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
- *
- * Extend this object into your markup.
- *
- * ---------------------------------------------------------------------
- */
-.stats-tabs {
-	padding: 0;
-	margin: 3rem 0;
-}
-.stats-tabs li {
-	display: inline-block;
-	margin: 0 1.5rem 3rem 0;
-	padding: 0 1.5rem 0 0;
-	border-right: 1px solid #ccc;
-}
-.stats-tabs li:last-child {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-.stats-tabs li a {
-	display: inline-block;
-	font-size: 2.5rem;
-	font-family: "poppins-bold", sans-serif;
-	border: none;
-	color: #252525;
-}
-.stats-tabs li a:hover {
-	color: #9fb8d5;
-}
-.stats-tabs li a em {
-	display: block;
-	margin: .6rem 0 0 0;
-	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
-	color: rgba(0, 0, 0, 0.5);
-}
-
-/**
- * skillbars - (_skillbars.scss)
- * -------------------------------------------------------------------
- */
-.skill-bars {
-	list-style: none;
-	margin: 6rem 0 3rem;
-}
-.skill-bars li {
-	height: .6rem;
-	background: #a1a1a1;
-	width: 100%;
-	margin-bottom: 6rem;
-	padding: 0;
-	position: relative;
-}
-.skill-bars li strong {
-	position: absolute;
-	left: 0;
-	top: -3rem;
-	font-family: "poppins-bold", sans-serif;
-	color: #313131;
-	text-transform: uppercase;
-	letter-spacing: .2rem;
-	font-size: 1.5rem;
-	line-height: 2.4rem;
-}
-.skill-bars li .progress {
-	background: #313131;
-	position: relative;
-	height: 100%;
-}
-.skill-bars li .progress span {
-	position: absolute;
-	right: 0;
-	top: -3.6rem;
-	display: block;
-	font-family: "poppins-regular", sans-serif;
-	color: white;
-	font-size: 1.1rem;
-	line-height: 1;
-	background: #313131;
-	padding: .6rem .6rem;
-	border-radius: 3px;
-}
-.skill-bars li .progress span::after {
-	position: absolute;
-	left: 50%;
-	bottom: -5px;
-	margin-left: -5px;
-	border-right: 5px solid transparent;
-	border-left: 5px solid transparent;
-	border-top: 5px solid #313131;
-	content: "";
-}
-
-.skill-bars li .percent5   { width: 5%; }
-.skill-bars li .percent10  { width: 10%; }
-.skill-bars li .percent15  { width: 15%; }
-.skill-bars li .percent20  { width: 20%; }
-.skill-bars li .percent25  { width: 25%; }
-.skill-bars li .percent30  { width: 30%; }
-.skill-bars li .percent35  { width: 35%; }
-.skill-bars li .percent40  { width: 40%; }
-.skill-bars li .percent45  { width: 45%; }
-.skill-bars li .percent50  { width: 50%; }
-.skill-bars li .percent55  { width: 55%; }
-.skill-bars li .percent60  { width: 60%; }
-.skill-bars li .percent65  { width: 65%; }
-.skill-bars li .percent70  { width: 70%; }
-.skill-bars li .percent75  { width: 75%; }
-.skill-bars li .percent80  { width: 80%; }
-.skill-bars li .percent85  { width: 85%; }
-.skill-bars li .percent90  { width: 90%; }
-.skill-bars li .percent95  { width: 95%; }
-.skill-bars li .percent100 { width: 100%; }
-
 
 /** 
  * ===================================================================
@@ -1490,7 +1367,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background-color: white;
+	background-color: rgb(241, 241, 241);
+	color: #151515;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1499,7 +1377,7 @@ header .logo a {
 }
 
 .intro-info {
-	margin-top: 4.2rem;
+	margin-top: 2.5rem;
 	margin-right: -30px;
 	margin-left: -30px;
 }
@@ -1511,19 +1389,20 @@ header .logo a {
 	float: left;
 }
 .intro-info .lead {
+	color: #0d0d0d;
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 14rem;
 }
 
 .about-content {
 	position: relative;
 	text-align: left;
 	max-width: 850px;
-	margin-bottom: 3.6rem;
+	margin-bottom: 2.5rem;
 }
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
-	font-size: 1.8rem;
+	font-size: 2.0rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
@@ -1532,35 +1411,57 @@ header .logo a {
 	margin-left: 0;
 }
 .about-content .info-list li {
-	padding: 0 0 1.5rem 0;
-	margin-bottom: .6rem;
+	padding: 0 0 0rem 0;
+	margin-bottom: 1rem;
+	font-size: 1.7rem;
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	line-height: 3rem;
 }
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	line-height: 1;
+}
+
+.technical-skills {
+	margin-left:-5%;
+	width: fit-content;
 }
 .about-content .skill-bars {
 	margin-top: 6rem;
+}
+.about-content .technical-skills li{
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.7rem;
+	letter-spacing: .1rem;
+	line-height: 1.3;
+	margin-bottom: 1;
+}
+
+.about-content .technical-skills strong {
+	font-family: "poppins-bold", sans-serif;
+	letter-spacing: .2rem;
+	font-size: 1.7rem;
 }
 
 .button-section {
 	text-align: center;
 }
 .button-section .button {
-	width: 250px;
+	width: 270px;
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
+}
+#about #abouth5 {
+	font-size: 2.4rem;
 }
 
 /**
@@ -1610,174 +1511,6 @@ header .logo a {
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
-	}
-}
-
-/** 
- * ===================================================================
- * 12. resume - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#resume {
-	padding-top: 12rem;
-	padding-bottom: 12rem;
-}
-
-#resume .resume-header {
-	text-align: center;
-}
-#resume .resume-header h2 {
-	color: #9fb8d5;
-}
-
-#resume .resume-timeline {
-	max-width: 980px;
-}
-#resume .timeline-wrap {
-	position: relative;
-	margin-top: 1.5rem;
-	margin-bottom: 6rem;
-}
-#resume .timeline-wrap::before {
-	content: "";
-	display: block;
-	width: 1px;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.1);
-	position: absolute;
-	left: 35%;
-	top: 0;
-}
-#resume .timeline-block {
-	position: relative;
-	padding-top: 1.5rem;
-}
-#resume .timeline-ico {
-	height: 4.8rem;
-	width: 4.8rem;
-	line-height: 4.8rem;
-	background: #313131;
-	border-radius: 50%;
-	text-align: center;
-	color: #FFFFFF;
-	position: absolute;
-	left: 35%;
-	top: .9rem;
-	margin-left: -2.4rem;
-}
-#resume .timeline-ico i {
-	position: relative;
-	left: .05rem;
-	top: .2rem;
-}
-
-#resume .timeline-header {
-	float: left;
-	width: 35%;
-	padding-right: 90px;
-	text-align: right;
-}
-#resume .timeline-header h3 {
-	margin-bottom: 0;
-}
-#resume .timeline-header p {
-	font-family: "poppins-regular", sans-serif;
-	font-size: 1.6rem;
-	color: rgba(0, 0, 0, 0.5);
-}
-#resume .timeline-content {
-	margin-left: 35%;
-	padding-left: 60px;
-}
-#resume .timeline-content h4 {
-	position: relative;
-	padding-bottom: 1.8rem;
-}
-#resume .timeline-content h4::after {
-	content: "";
-	display: block;
-	height: 3px;
-	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
-	position: absolute;
-	left: 0;
-	bottom: 0;
-}
-
-/**
- * responsive:
- * resume
- * ------------------------------------------------------------------- 
- */
-@media only screen and (max-width:1024px) {
-	#resume .timeline-header {
-		padding-right: 50px;
-	}
-	#resume .timeline-header h3 {
-		font-size: 1.8rem;
-	}
-	#resume .timeline-header p {
-		font-size: 1.4rem;
-	}
-	#resume .timeline-content {
-		padding-left: 50px;
-	}
-}
-@media only screen and (max-width:768px) {
-	#resume .timeline-wrap::before {
-		left: 2.4rem;
-	}
-	#resume .timeline-ico {
-		left: 2.4rem;
-	}
-	#resume .timeline-header {
-		float: none;
-		width: auto;
-		padding-right: 15px;
-		text-align: left;
-	}
-	#resume .timeline-header h3 {
-		font-size: 2rem;
-	}
-	#resume .timeline-header p {
-		font-size: 1.5rem;
-		margin-bottom: 1.5rem;
-	}
-	#resume .timeline-content {
-		margin: 0;
-	}
-	#resume .timeline-content h4 {
-		padding-bottom: 0;
-		padding-top: 2.1rem;
-		margin-bottom: .6rem;
-		font-size: 1.7rem;
-	}
-	#resume .timeline-content h4::after {
-		bottom: auto;
-		top: 0;
-	}
-	#resume .timeline-header, #resume .timeline-content {
-		padding-left: 7rem;
-	}
-}
-@media only screen and (max-width:480px) {
-	#resume .resume-header h2 {
-		font-size: 2.2rem;
-	}
-	#resume .timeline-wrap::before {
-		left: 1.8rem;
-	}
-	#resume .timeline-ico {
-		height: 3.6rem;
-		width: 3.6rem;
-		line-height: 3.6rem;
-		left: 1.8rem;
-		margin-left: -1.8rem;
-		font-size: 1.5rem;
-	}
-	#resume .timeline-header, #resume .timeline-content {
-		padding-left: 5.5rem;
 	}
 }
 
@@ -1864,6 +1597,20 @@ header .logo a {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
+}
+#portfolio #porth5 {
+	font-size: 2.4rem;
+}
+
+ #arroyolink {
+	padding-top: 8rem;
+}
+#otherProjects {
+	padding-top: 10rem;
+}
+
+#otherProjects h5 {
+	font-size: 2.0rem;
 }
 
 /**
@@ -2086,163 +1833,6 @@ header .logo a {
 	}
 }
 
-
-/** 
- * ===================================================================
- * 15. services - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	padding-top: 12rem;
-	padding-bottom: 12rem;
-	color: white;
-	position: relative;
-}
-#services .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #151515;
-	opacity: .9;
-}
-
-#services .section-intro {
-	margin-bottom: 1.8rem;
-}
-
-#services .section-intro h1 {
-	color: white;
-}
-#services .section-intro h5 {
-	color: #9fb8d5;
-}
-#services .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
-}
-.services-content {
-	max-width: 1200px;
-}
-.services-list {
-	margin-top: 1.2rem;
-	text-align: center;
-}
-.services-list .service {
-	margin-bottom: 1.2rem;
-	padding: 0 30px;
-}
-.services-list .icon {
-	display: inline-block;
-	margin-bottom: 2.1rem;
-}
-.services-list .icon i {
-	font-size: 5.4rem;
-	color: #9fb8d5;
-}
-.services-list h3 {
-	color: #FFFFFF;
-}
-.services-list .desc {
-	color: rgba(255, 255, 255, 0.6);
-}
-
-/* pagination */
-.owl-pagination {
-	text-align: center;
-	width: 100%;
-	margin: .6rem 0 0;
-}
-.owl-theme .owl-controls .owl-page {
-	display: inline-block;
-}
-.owl-theme .owl-controls .owl-page span {
-	display: block;
-	width: 1.2rem;
-	height: 1.2rem;
-	margin: 1.2rem .8rem 0 .8rem;
-	border-radius: 50%;
-	display: inline-block;
-	background: #FFFFFF;
-}
-.owl-theme .owl-controls .owl-page.active span {
-	background: rgb(159, 184, 213);
-}
-
-
-/** 
- * ===================================================================
- * 16. stats - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#stats {
-	background: #9fb8d5;
-	padding-top: 7.2rem;
-	padding-bottom: 6rem;
-	text-align: center;
-}
-#stats .row {
-	max-width: 1440px;
-}
-#stats .stat {
-	border-left: 1px solid rgba(255, 255, 255, 0.12);
-	min-height: 17.4rem;
-}
-#stats .stat:first-child {
-	border: none;
-}
-#stats .icon-part i {
-	font-size: 4.8rem;
-	color: #000000;
-}
-#stats .stat-count {
-	color: #FFFFFF;
-	font-size: 3.6rem;
-	margin-top: 1.2rem;
-	margin-bottom: 0;
-	font-family: "poppins-medium", sans-serif;
-	color: white;
-}
-#stats .stat-title {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-/**
- * responsive:
- * stats
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:1024px) {
-	#stats .stat:nth-child(n) {
-		border-left: 1px solid rgba(255, 255, 255, 0.12);
-		padding-bottom: 1.5rem;
-	}
-	#stats .stat:nth-child(3n+1) {
-		border: none;
-	}
-}
-@media only screen and (max-width:768px) {
-	#stats .stat:nth-child(n) {
-		border-left: 1px solid rgba(255, 255, 255, 0.12);
-	}
-	#stats .stat:nth-child(2n+1) {
-		border: none;
-	}
-}
-@media only screen and (max-width:600px) {
-	#stats .stat:nth-child(n) {
-		border: none;
-	}
-}
-
-
-/** 
  * ===================================================================
  * 17. contact - (_layout.scss)
  *
@@ -2250,7 +1840,7 @@ header .logo a {
  */
 #contact {
 	background: #151515;
-	color:white;
+	color: white;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
@@ -2259,9 +1849,13 @@ header .logo a {
 }
 #contact .section-intro h5 {
 	color: #9fb8d5;
+	padding-top: 7rem;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
+}
+#contact #contacth5 {
+	font-size: 2.4rem;
 }
 
 /* contact form */
