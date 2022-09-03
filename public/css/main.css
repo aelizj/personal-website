@@ -1593,11 +1593,11 @@ header .logo a {
 #portfolio .folio-item:hover .folio-item-cell {
 	left: 0;
 }
-#portfolio .folio-item:hover img {
+/* #portfolio .folio-item:hover img {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
-}
+} */
 #portfolio #porth5 {
 	font-size: 2.4rem;
 }
