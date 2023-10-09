@@ -34,7 +34,6 @@
  *
  * -------------------------------------------------------------------
  */
-	@import url("fonts.css");
 	@import url("font-awesome/css/font-awesome.min.css");
 	@import url("micons/micons.css");
 
@@ -50,14 +49,10 @@
 			--accent-color-darker: #0a876c;
 			--accent-color-ultradark: #0b1412;
 
-			--header-font-regular: "poppins-regular";
-			--header-font-semibold: "poppins-semibold";
-			--header-font-bold: "poppins-bold";
-			--header-font-medium: "poppins-medium";
+			--accent-color-flora: #7E9458;
 
-			--body-font-regular: "lora-regular";
-			--body-font-italic: "lora-italic";
-			--body-font-bold: "lora-bold";
+			--header-font: "Inter";
+			--body-font: "Fraunces";
 	}
 
 	/**
@@ -93,7 +88,7 @@
 	body {
 			background: #151515;
 			color: rgba(0, 0, 0, 0.5);
-			font-family: "lora-regular", serif;
+			font-family: var(--body-font), serif;
 			font-size: 1.7rem;
 			line-height: 3rem;
 	}
@@ -136,7 +131,7 @@
 	.h04,
 	.h05,
 	.h06 {
-			font-family: var(--header-font-semibold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			color: rgba(0, 0, 0, 0.8);
 			font-style: normal;
 			text-rendering: optimizeLegibility;
@@ -152,7 +147,7 @@
 	.h05,
 	h6,
 	.h06 {
-			font-family: var(--header-font-bold);
+			font-family: var(--header-font);
 			margin-bottom: 1.2rem;
 	}
 	h1,
@@ -201,7 +196,7 @@
 			margin: 0;
 	}
 	p.lead {
-			font-family: var(--body-font-regular), serif;
+			font-family: var(--body-font), serif;
 			font-size: 2.4rem;
 			line-height: 1.8;
 			color: rgba(0, 0, 0, 0.5);
@@ -222,11 +217,11 @@
 	}
 	em,
 	i {
-			font-family: var(--body-font-italic), serif;
+			font-family: var(--body-font), serif;
 	}
 	strong,
 	b {
-			font-family: var(--body-font-bold), serif;
+			font-family: var(--body-font), serif;
 	}
 	small {
 			font-size: 1.2rem;
@@ -270,7 +265,7 @@
 			border: none;
 	}
 	abbr {
-			font-family: var(--header-font-bold), serif;
+			font-family: var(--header-font), serif;
 			font-variant: small-caps;
 			text-transform: lowercase;
 			letter-spacing: 0.05rem;
@@ -386,7 +381,7 @@
 			border-width: 0;
 			width: 100%;
 			max-width: 100%;
-			font-family: var(--body-font-regular), sans-serif;
+			font-family: var(--body-font), sans-serif;
 	}
 	th,
 	td {
@@ -396,7 +391,7 @@
 	}
 	th {
 			color: #313131;
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 	}
 	td {
 			line-height: 1.5;
@@ -582,7 +577,7 @@
 	input[type="reset"],
 	input[type="button"] {
 			display: inline-block;
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.5rem;
 			text-transform: uppercase;
 			letter-spacing: 0.3rem;
@@ -682,152 +677,6 @@
 			padding: 0;
 	}
 
-	/**
-		* ===================================================================
-		* 07. other components - (_others.scss)
-		*
-		* -------------------------------------------------------------------
-		*/
-
-	/**
-		* alert box - (_alert-box.scss)
-		* -------------------------------------------------------------------
-		*/
-	.alert-box {
-			padding: 2.1rem 4rem 2.1rem 3rem;
-			position: relative;
-			margin-bottom: 3rem;
-			border-radius: 3px;
-			font-family: var(--header-font-regular), sans-serif;
-			font-size: 1.5rem;
-	}
-	.alert-box .close {
-			position: absolute;
-			right: 1.8rem;
-			top: 1.8rem;
-			cursor: pointer;
-	}
-	.ss-error {
-			background-color: #ffd1d2;
-			color: #e65153;
-	}
-	.ss-success {
-			background-color: #c8e675;
-			color: #758c36;
-	}
-	.ss-info {
-			background-color: #d7ecfb;
-			color: #4a95cc;
-	}
-	.ss-notice {
-			background-color: #fff099;
-			color: #bba31b;
-	}
-
-	/**
-		* additional typo styles - (_additional-typo.scss)
-		* -------------------------------------------------------------------
-		*/
-
-	/**
-		* drop cap
-		*/
-	.drop-cap:first-letter {
-			float: left;
-			margin: 0;
-			padding: 1.5rem 0.6rem 0 0;
-			font-size: 8.4rem;
-			font-family: var(--header-font-bold), sans-serif;
-			line-height: 6rem;
-			text-indent: 0;
-			background: transparent;
-			color: #313131;
-	}
-
-	/**
-		* line definition style
-		*/
-	.lining dt,
-	.lining dd {
-			display: inline;
-			margin: 0;
-	}
-	.lining dt + dt:before,
-	.lining dd + dt:before {
-			content: "\A";
-			white-space: pre;
-	}
-	.lining dd + dd:before {
-			content: ", ";
-	}
-	.lining dd + dd:before {
-			content: ", ";
-	}
-	.lining dd:before {
-			content: ": ";
-			margin-left: -0.2em;
-	}
-
-	/**
-		* dictionary definition style
-		*/
-	.dictionary-style dt {
-			display: inline;
-			counter-reset: definitions;
-	}
-	.dictionary-style dt + dt:before {
-			content: ", ";
-			margin-left: -0.2em;
-	}
-	.dictionary-style dd {
-			display: block;
-			counter-increment: definitions;
-	}
-	.dictionary-style dd:before {
-			content: counter(definitions, decimal) ". ";
-	}
-
-	/**
-		* Pull Quotes
-		* -----------
-		* markup:
-		*
-		* <aside class="pull-quote">
-		*		<blockquote>
-		*			<p></p>
-		*		</blockquote>
-		*	</aside>
-		*
-		* ---------------------------------------------------------------------
-		*/
-	.pull-quote {
-			position: relative;
-			padding: 2.1rem 3rem 2.1rem 0px;
-	}
-	.pull-quote:before,
-	.pull-quote:after {
-			height: 1em;
-			position: absolute;
-			font-size: 8rem;
-			font-family: Arial, Sans-Serif;
-			color: #333;
-	}
-	.pull-quote:before {
-			content: "\201C";
-			top: 33px;
-			left: 0;
-	}
-	.pull-quote:after {
-			content: "\201D";
-			bottom: -33px;
-			right: 0;
-	}
-	.pull-quote blockquote {
-			margin: 0;
-	}
-	.pull-quote blockquote:before {
-			content: none;
-	}
 
 	/**
 		* ===================================================================
@@ -850,7 +699,7 @@
 			position: relative;
 	}
 	.section-intro h1 {
-			font-family: var(--header-font-semibold), serif;
+			font-family: var(--header-font), serif;
 			font-size: 3.6rem;
 			color: #313131;
 			line-height: 1.25;
@@ -1037,7 +886,7 @@
 	#main-nav-wrap {
 			display: block;
 			width: 100%;
-			font-family: var(--header-font-medium), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.8rem;
 			font-weight: 700;
 			position: absolute;
@@ -1143,7 +992,7 @@
 	}
 	.intro-content h1 {
 			color: white;
-			font-family: var(--header-font-medium), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 8.4rem;
 			line-height: 1.071;
 			max-width: 900px;
@@ -1155,7 +1004,7 @@
 	}
 	.intro-content h5 {
 			color: var(--accent-color);
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 2.3rem;
 			line-height: 1.565;
 			margin-bottom: 0;
@@ -1164,7 +1013,7 @@
 			text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 	}
 	.intro-content .intro-position {
-			font-family: var(--body-font-regular), serif;
+			font-family: var(--body-font), serif;
 			font-size: 1.7rem;
 			line-height: 2.4rem;
 			text-transform: uppercase;
@@ -1318,33 +1167,43 @@
 	#about .section-intro {
 			margin-bottom: 3rem;
 	}
-
+	#about #abouth5 {
+		font-size: 2.4rem;
+ }
+	#about #abouth1 {
+		padding-top: 2rem;
+		padding-left: 12rem;
+		font-weight: 800;
+		letter-spacing: 0.01rem;
+	}
 	.intro-info {
 			margin-top: 2.5rem;
 			margin-right: -30px;
 			margin-left: -30px;
+			padding-bottom: 3rem;
 	}
 	.intro-info img {
-			height: 9rem;
-			width: 9rem;
-			border-radius: 50%;
-			margin: 0.9rem 0 0 0;
+			height: 15rem;
+			width: 15rem;
+			border-radius: 75%;
+			margin: 2rem 0 0 0;
 			float: left;
 	}
 	.intro-info .lead {
 			color: #0d0d0d;
 			text-align: left;
-			padding-left: 14rem;
+			padding-left: 20rem;
+			text-align: justify;
 	}
-
 	.about-content {
 			position: relative;
 			text-align: left;
-			max-width: 850px;
-			margin-bottom: 2.5rem;
+			max-width: 900;
+			margin-bottom: 5rem;
+			padding-left: 18rem;
 	}
 	.about-content h3 {
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 2rem;
 			text-transform: uppercase;
 			letter-spacing: 0.25rem;
@@ -1355,11 +1214,11 @@
 	}
 	.about-content .info-list li {
 			padding: 0 0 0rem 0;
-			margin-bottom: 1rem;
+			margin-bottom: 1.5rem;
 			font-size: 1.7rem;
 	}
 	.about-content .info-list li strong {
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			color: #313131;
 			text-transform: uppercase;
 			letter-spacing: 0.2rem;
@@ -1368,32 +1227,29 @@
 	}
 	.about-content .info-list li span {
 			display: block;
-			font-family: var(--header-font-regular), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.7rem;
 			line-height: 1;
 	}
-
 	.technical-skills {
-			margin-left: -5%;
+			margin-left: -23%;
 			width: fit-content;
 	}
 	.about-content .skill-bars {
 			margin-top: 6rem;
 	}
 	.about-content .technical-skills li {
-			font-family: var(--header-font-regular), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.7rem;
 			letter-spacing: 0.1rem;
 			line-height: 1.3;
-			margin-bottom: 1rem;
+			margin-bottom: 1.5rem;
 	}
-
 	.about-content .technical-skills strong {
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			letter-spacing: 0.2rem;
 			font-size: 1.7rem;
 	}
-
 	.button-section {
 			text-align: center;
 	}
@@ -1403,9 +1259,7 @@
 	.button-section [class*="col-"] .button:first-child {
 			margin-right: 4rem;
 	}
-	#about #abouth5 {
-			font-size: 2.4rem;
-	}
+
 
 	/**
 		* responsive:
@@ -1465,14 +1319,35 @@
 		* -------------------------------------------------------------------
 		*/
 	#portfolio {
-			background: #ffffff;
+			background: white;
 			padding-top: 12rem;
 			padding-bottom: 12rem;
+	}
+	#arroyo {
+		background: white;
+		margin: 5rem;
+		border:var(--accent-color-ultradark);
+		border-width: 0.5rem;
+		border-style:solid;
+	}
+	#flora {
+		background: white;
+		margin: 5rem;
+		border: var(--accent-color-ultradark);
+		border-width: 0.5rem;
+		border-style:solid;
 	}
 	#portfolio .folio-item {
 			padding: 1rem;
 			position: relative;
 			overflow: hidden;
+	}
+	#portfolio .folio-item p {
+		padding-right: 2rem;
+		font-size: 1.9rem;
+		color: #0d0d0d;
+		font-weight: 500;
+		text-align: justify;
 	}
 	#portfolio .folio-item img {
 			vertical-align: middle;
@@ -1482,7 +1357,6 @@
 			-ms-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 	}
-
 	#portfolio .overlay {
 			position: absolute;
 			top: 0;
@@ -1496,7 +1370,6 @@
 			-ms-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 	}
-
 	#portfolio .folio-item-table {
 			display: table;
 			width: 100%;
@@ -1514,8 +1387,7 @@
 			position: relative;
 			left: -100%;
 	}
-
-	#portfolio .folio-title {
+ #portfolio .folio-title {
 			color: #ffffff;
 			font-size: 3.3rem;
 			padding: 0 3rem;
@@ -1525,7 +1397,7 @@
 			margin: 0;
 			padding: 0;
 			text-transform: uppercase;
-			font-family: var(--header-font-regular), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.2rem;
 			letter-spacing: 0.1rem;
 			color: rgba(255, 255, 255, 0.6);
@@ -1536,20 +1408,20 @@
 	#portfolio .folio-item:hover .folio-item-cell {
 			left: 0;
 	}
-	/* #portfolio .folio-item:hover img {
-		-webkit-transform: scale(1.05);
-		-ms-transform: scale(1.05);
-		transform: scale(1.05);
-	} */
 	#portfolio #porth5 {
 			font-size: 2.4rem;
 	}
-
-	#arroyolink {
-			padding-top: 8rem;
+	#portfolio .flora-links {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
 	}
+	#arroyolink {
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+	}
+
 	#otherProjects {
-			padding-top: 10rem;
+			padding-top: 3rem;
 	}
 
 	#otherProjects h5 {
@@ -1597,19 +1469,19 @@
 			padding: 1.8rem 3.6rem 3rem;
 	}
 	.popup-modal .description-box h4 {
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.5rem;
 			line-height: 2.4rem;
 			margin-bottom: 0.6rem;
 	}
 	.popup-modal .description-box p {
-			font-family: var(--header-font-regular), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.4rem;
 			line-height: 2.4rem;
 			margin-bottom: 12px;
 	}
 	.popup-modal .categories {
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.1rem;
 			line-height: 1.8rem;
 			text-transform: uppercase;
@@ -1624,7 +1496,7 @@
 			background: #212121;
 	}
 	.popup-modal .link-box a {
-			font-family: var(--header-font-bold), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.7rem;
 			line-height: 6rem;
 			color: #ffffff;
@@ -1777,7 +1649,7 @@
 	}
 	.contact-info {
 			margin: 4.8rem auto 0;
-			font-family: var(--header-font-regular), sans-serif;
+			font-family: var(--header-font), sans-serif;
 			font-size: 1.7rem;
 			text-align: center;
 	}
@@ -1864,7 +1736,7 @@
 			padding-top: 3rem;
 			padding-bottom: 1rem;
 			font-size: 1.4rem;
-			font-family: var(--header-font-regular), sans-serif;
+			font-family: var(--header-font), sans-serif;
 	}
 	footer a,
 	footer a:visited {

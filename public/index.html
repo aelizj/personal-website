@@ -21,6 +21,12 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/vendor.css">
 
+
+  <!-- fonts
+  ================================================== -->
+		<style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');</style>
+		<style>@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap');</style>
+
   <!-- script
   ================================================== -->
 	 <script src="js/modernizr.js"></script>
@@ -89,7 +95,7 @@
 		  <div class="row section-intro">
 			   <div class="col-twelve">
 				    <h5 id="abouth5">About</h5>
-				    <h1>Let me introduce myself.</h1>
+				    <h1 id="abouth1">Let me introduce myself.</h1>
         <div class="intro-info">
           <img src="images/profile-pic.jpg" alt="Profile Picture">
           <p class="lead">My name is Anne, and I am a software engineer based in Seattle, Washington.  </p>
@@ -157,20 +163,78 @@
 	   <div class="row section-intro">
    		 <div class="col-twelve">
    			  <h5 id="porth5">Portfolio</h5>
-				    <div class="col-ten" style="padding-top: 2rem;">
-				     	<img src="images/logos/SVG/color/arroyologo_color.svg" style="width: 60%; height: 60%;">
-				    </div>
    		 </div>
    	</div> <!-- /section-intro-->
 
+				<!-- FLORA ---------------------------------------->
+				<section id="flora">
+					<div class="col-ten" style="padding-top: 2rem;">
+							<img src="images/logos/flora/PNG/color/floralightgreen.png" style="width: 40%; height: 50%; padding-left: 3rem; padding-top:3rem; padding-bottom: 3rem;">
+					</div>
+					<div class="row portfolio-content flora">
+							<div class="col-twelve">
+									<div id="folio-wrapper">
+											<div class="bgrid folio-item">
+													<div class="item-wrap">
+															<h2><a href="https://www.floraapp.dev" style="color: var(--accent-color-flora)" title="Arroyo" target="_blank">Flora</a> is a new type of social media site created by plant lovers, for plant lovers.</h2>
+													</div>
+											</div>
+											<!-- <div class="bgrid folio-item">
+													<img src="images/PlantIcon.svg" alt="Placeholder visual">
+											</div> -->
+									</div>
+							</div>
+					</div>
+					<p class="lead"></p>
+					<div class="row portfolio-content arroyo">
+							<div class="col-twelve">
+									<div id="folio-wrapper"  class="block-1-2 block-mob-full stack">
+											<div class="bgrid folio-item">
+													<div class="item-wrap">
+															<p> Flora's aim is to provide a place where thumbs of all colors can come to share their knowledge through plant guides, which can be viewed by anyone in the community. </p>
+													</div>
+											</div>
+											<div class="bgrid folio-item">
+													<img src="images/PlantIcon.svg" alt="Placeholder visual">
+											</div>
+									</div>
+							</div>
+					</div>
+					<p class="lead"></p>
+					<div class="row portfolio-content arroyo">
+							<div class="col-twelve">
+									<div id="folio-wrapper"  class="block-1-2 block-mob-full stack">
+											<div class="bgrid folio-item">
+													<div class="item-wrap">
+															<p>Users can also customize their profile, where they can show off their plants, flaunt their horticultural interests, and show off the plants guides they've written or interacted with.</p>
+													</div>
+											</div>
+											<div class="bgrid folio-item">
+													<img src="images/PlantIcon.svg" alt="Placeholder visual">
+											</div>
+									</div>
+							</div>
+					</div>
+					<div class="row button-section flora-links">
+						<div class="col-twelve">
+								<a href="https://www.floraapp.dev" target="_blank" title="Developing Flora" class="button button-primary" style="font-weight: bold;">Read more</a>
+								<a href="https://www.floraapp.dev" target="_blank" title="Flora" class="button button-primary flora-button" style="font-weight: bold;">Visit Flora</a>
+						</div>
+				</div>
+
+			</section>
+
 				<!-- ARROYO ---------------------------------------->
 				<section id="arroyo">
+				  <div class="col-ten" style="padding-top: 2rem;">
+						  <img src="images/logos/arroyo/SVG/color/arroyologo_color.svg" style="width: 40%; height: 50%; padding-left: 4rem; padding-top:3rem; padding-bottom: 3rem;">
+				  </div>
 		    <div class="row portfolio-content arroyo">
 			     <div class="col-twelve">
 				      <div id="folio-wrapper">
 				  	     <div class="bgrid folio-item">
 				  		      <div class="item-wrap">
-				  			       <h2><a href="https://www.arroyoframework.com/" title="Arroyo" target="_blank">Arroyo</a> is a lightweight framework that facilitates the rehydration of logs archived in cloud storage back into Elasticsearch. </h2>
+				  			       <h2><a href="https://www.arroyoframework.com/" style="color: var(--accent-color)" title="Arroyo" target="_blank">Arroyo</a> is a lightweight framework that facilitates the rehydration of logs archived in cloud storage back into Elasticsearch.</h2>
 				  		      </div>
 				        </div> <!-- /folio-item -->
 	        			<div class="bgrid folio-item">
@@ -185,7 +249,7 @@
 			    	  <div id="folio-wrapper"  class="block-1-2 block-mob-full stack">
 		    			   <div class="bgrid folio-item">
   		      				<div class="item-wrap">
-				  			       <h2> Users can reingest logs by date range, and they may also input search terms to further refine their search. <br><br>These logs are indexed back into Elasticsearch, and are then readily available within the user's Kibana dashboard.   </h2>
+				  			       <p> Users can reingest logs by date range, and they may also input search terms to further refine their search. <br><br>These logs are indexed back into Elasticsearch, and are then readily available within the user's Kibana dashboard.</p>
 				  		      </div>
 				   	    </div> <!-- /folio-item -->
 		       			<div class="bgrid folio-item">
@@ -200,7 +264,7 @@
 		    		  <div id="folio-wrapper"  class="block-1-2 block-mob-full stack">
 		    			   <div class="bgrid folio-item">
 		    				    <div class="item-wrap">
-		    					     <h2 style="vertical-align: middle;">Arroyo deploys all of the AWS infrastructure needed to rehydrate logs automatically.<br><br>Once the work is done, Arroyo can destroy that infrastructure just as easily to avoid unnecessary resource use.  </h2>
+		    					     <p>Arroyo deploys all of the AWS infrastructure needed to rehydrate logs automatically.<br><br>Once the work is done, Arroyo can destroy that infrastructure just as easily to avoid unnecessary resource use.  </p>
 		    				    </div>
 		    		 	  </div> <!-- /folio-item -->
 		    			   <div class="bgrid folio-item">
@@ -209,6 +273,7 @@
 		    		  </div>
 		    	 </div>
 		    </div>
+						</div>
 		    <div id="arroyolink" class="row button-section">
 		    	 <div class="col-twelve">
 		    		  <a href="https://www.arroyoframework.com/case-study.html" target="_blank" title="Arroyo Case Study" class="button button-primary" style="font-weight: bold;">Read more</a>
