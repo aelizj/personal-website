@@ -1351,10 +1351,8 @@ header .logo a {
   padding-bottom: 5rem; */
 }
 #portfolio .portfolio-content {
-  background-color: rgb(218, 255, 218);
 }
 #portfolio .folio-item {
-  background-color: green;
   padding: 1rem;
   position: relative;
   overflow: hidden;
@@ -1379,7 +1377,6 @@ header .logo a {
   padding-bottom: 3rem;
 }
 #arroyo-link-section {
-  background-color: blue;
   padding-top: 6rem;
   padding-bottom: 3rem;
 }
