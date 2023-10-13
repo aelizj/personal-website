@@ -1159,7 +1159,7 @@
 		* -------------------------------------------------------------------
 		*/
 	#about {
-			background-color: rgb(241, 241, 241);
+			background-color: white;
 			color: #151515;
 			padding-top: 12rem;
 			padding-bottom: 15rem;
@@ -1319,23 +1319,44 @@
 		* -------------------------------------------------------------------
 		*/
 	#portfolio {
-			background: white;
+		 display: flex;
+			flex-direction: column;
+			background: rgb(238, 238, 238);
 			padding-top: 12rem;
 			padding-bottom: 12rem;
+			align-items: center;
 	}
 	#arroyo {
+		display: flex;
+  flex-direction: column;
+		max-width: 1150px;
 		background: white;
-		margin: 5rem;
-		border:var(--accent-color-ultradark);
+		margin-left: 10rem;
+		margin-right: 10rem;
+		margin-bottom: 5rem;
+		padding-right: 5rem;
+		padding-left: 5rem;
+		padding-top: 8rem;
+		padding-bottom: 7rem;
+		/* border: var(--accent-color-ultradark);
 		border-width: 0.5rem;
-		border-style:solid;
+		border-style:solid; */
 	}
 	#flora {
+		display: flex;
+  flex-direction: column;
+		max-width: 1150px;
 		background: white;
-		margin: 5rem;
-		border: var(--accent-color-ultradark);
+		margin-left: 10rem;
+		margin-right: 10rem;
+		margin-bottom: 5rem;
+		padding-right: 5rem;
+		padding-left: 5rem;
+		padding-top: 8rem;
+		padding-bottom: 7rem;
+		/* border: var(--accent-color-ultradark);
 		border-width: 0.5rem;
-		border-style:solid;
+		border-style:solid; */
 	}
 	#portfolio .folio-item {
 			padding: 1rem;
@@ -1775,7 +1796,7 @@
 			content: "|";
 			display: inline-block;
 			padding: 0 1rem 0 1.2rem;
-			color: rgba(255, 255, 255, 0.1);
+			color: var(--accent-color-ultradark);
 	}
 	footer .copyright span:last-child::after {
 			display: none;
