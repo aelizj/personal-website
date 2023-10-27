@@ -1350,8 +1350,6 @@ header .logo a {
   padding-top: 8rem;
   padding-bottom: 5rem;
 }
-#portfolio .portfolio-content {
-}
 #portfolio .folio-item {
   padding: 1rem;
   position: relative;
@@ -1374,7 +1372,7 @@ header .logo a {
   transition: all 0.5s ease-in-out;
 }
 #flora-link-section {
-  padding-top: 6rem;
+  padding-top: 9rem;
   padding-bottom: 3rem;
 		font-weight: bold;
 }
