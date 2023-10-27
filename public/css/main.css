@@ -995,8 +995,8 @@ header .logo a {
   font-size: 8.4rem;
   line-height: 1.071;
   max-width: 900px;
-  margin-top: 0;
-  margin-bottom: 0.6rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -1757,6 +1757,7 @@ header .logo a {
 		* -------------------------------------------------------------------
 		*/
 footer {
+  background-color: var(--accent-color-ultradark);
   padding-top: 3rem;
   padding-bottom: 1rem;
   font-size: 1.4rem;
@@ -1771,7 +1772,7 @@ footer a:focus {
   color: var(--accent-color-dark);
 }
 footer .row {
-  max-width: 900px;
+  max-width: 1100px;
 }
 footer .social {
   text-align: right;
