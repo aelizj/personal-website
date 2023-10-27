@@ -1358,6 +1358,7 @@ header .logo a {
   overflow: hidden;
 }
 #portfolio .folio-item p {
+	 min-height: 22rem;
   padding-right: 2rem;
   font-size: 1.9rem;
   color: #0d0d0d;
@@ -1375,10 +1376,12 @@ header .logo a {
 #flora-link-section {
   padding-top: 6rem;
   padding-bottom: 3rem;
+		font-weight: bold;
 }
 #arroyo-link-section {
   padding-top: 6rem;
   padding-bottom: 3rem;
+		font-weight: bold;
 }
 #portfolio .overlay {
   position: absolute;
